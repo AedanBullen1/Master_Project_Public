@@ -26,7 +26,7 @@ class FastDataLoader:
         initialises inputs and sets up folder path based on instrument name
      """
       
-        self.base_path = ('/Users/aedanbullen/ENACdrives/scitas-cryos/CRYOS/Projects/Antarctica/PrincessElisabeth/Season_2024-2025/DATA/processed')
+        self.base_path = (#ENTER BASE PATH)
         self.instrument = instrument
         self.folder_path = f"{self.base_path}/{instrument}"
         self.start = start
