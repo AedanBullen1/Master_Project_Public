@@ -13,7 +13,7 @@ plt.rcParams['font.family'] = 'Helvetica'
 import seaborn as sns
 palette = sns.color_palette('Set2', 4)
 
-sys.path.append('/Users/aedanbullen/Desktop/Projet de Master/Projet_de_master/src')
+sys.path.append('REPLACE')
 from data_sorter import FastDataLoader
 
 class SpectralAnalyser:
